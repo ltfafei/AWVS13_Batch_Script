@@ -8,7 +8,9 @@ python.exe .\awvs_console.py -h
        _  __        ____     __ ____           ____                            _    Ver:1.6.2
 ...
 
+
    Usage:
+   
           -a --address    <awvs_address>          AWVS所在机的ip地址(必须填)
           
           -p --port       <awvs_port>             AWVS的WEB端口
@@ -43,3 +45,21 @@ python.exe .\awvs_console.py -h
 py -3 awvs_console.py -a localhost -k <api-key>  -f .\Batch_url\xxx.txt -s
 
 ![image](https://user-images.githubusercontent.com/43526141/119246328-49679f80-bbb3-11eb-86ea-34b1029abe6d.png)
+       
+       
+## 2.AWVS_batch_scan.py
+python .\AWVS_batch_scan.py -h
+       
+usage: AWVS_batch_scan.py [-h] [-u U] [-f F] [-g G] [-d]
+
+optional arguments:
+       
+  -h, --help  show this help message and exit
+       
+  -u U        scan a url
+       
+  -f F        scan a file list
+       
+  -g G        add a group description
+       
+  -d          delete all target and scan
