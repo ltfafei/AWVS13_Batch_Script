@@ -1,6 +1,8 @@
 # AWVS13_Batch_Script
 AWVS13 batch scan Script
 
+Resources：https://afei00123.blog.csdn.net/article/details/117186981
+
 ## 1.awvs_console.py
 
 python.exe .\awvs_console.py -h
