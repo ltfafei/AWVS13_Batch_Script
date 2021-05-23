@@ -54,12 +54,12 @@ usage: AWVS_batch_scan.py [-h] [-u U] [-f F] [-g G] [-d]
 
 optional arguments:
        
-  -h, --help  show this help message and exit
-       
-  -u U        scan a url
-       
-  -f F        scan a file list
-       
-  -g G        add a group description
-       
-  -d          delete all target and scan
+         -h, --help  show this help message and exit
+
+         -u U        scan a url
+
+         -f F        scan a file list
+
+         -g G        add a group description
+
+         -d          delete all target and scan
