@@ -9,8 +9,8 @@ import argparse
 #公众号:漏洞推送
 
 #指定AWVS的URL和用户名密码
-username = 'afei@jidao.com'
-password = 'Cl@123456'
+username = 'afei@xxx.com'
+password = 'xxxxxx'
 awvs_url = 'https://localhost:3443/'
 
 class Awvs():
